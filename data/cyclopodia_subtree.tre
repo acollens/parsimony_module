@@ -1,0 +1,173 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=71;
+	taxlabels
+	Acanthocyclops_americanus_ott2947180
+	Acanthocyclops_vernalis_ott493478
+	Acanthocyclops_viridis_ott396575
+	Apocyclops_borneoensis_ott1047139
+	Apocyclops_panamensis_ott2946853
+	Apocyclops_royi_ott396577
+	Archinotodelphyidae_ott828781
+	Bonnierilla_ott2948403
+	Cyclopettidae_ott330828
+	Cyclopina_ott131546
+	Cyclops_bohater_ott2947936
+	Cyclops_heberti_ott2947719
+	Cyclops_insignis_ott498954
+	Cyclops_kikuchii_ott2947848
+	Cyclops_kolensis_ott850515
+	Cyclops_ochridanus_ott2947892
+	Cyclops_scutifer_ott361028
+	Cyclops_strenuus_ott527927
+	Cyclops_vicinus_ott2947779
+	Diacyclops_bicuspidatus_ott535426
+	Diacyclops_galbinus_ott86576
+	Diacyclops_improcerus_ott86583
+	Diacyclops_incolotaenia_ott535424
+	Diacyclops_jasnitskii_ott535422
+	Dioithona_ott131543
+	Doropygus_elegans_ott2948528
+	Doropygus_rigidus_ott2948425
+	Ectocyclops_affinis_ott2946871
+	Ectocyclops_polyspinosus_ott1023329
+	Eucyclops_arcanus_ott535419
+	Eucyclops_dumonti_ott1091053
+	Eucyclops_macruroides_ott1051070
+	Eucyclops_serrulatus_ott521986
+	Eucyclops_speratus_ott1066881
+	Euryte_ott1023222
+	Halicyclops_ott131540
+	Hemicyclopinidae_ott182631
+	Lamproglena_chinensis_ott1087115
+	Lamproglena_orientalis_ott1087116
+	Lernaea_ott1087114
+	Macrocyclops_albidus_ott1091052
+	Macrocyclops_distinctus_ott2946892
+	Macrocyclops_fuscus_ott2946891
+	Megacyclops_ott706129
+	Mesocyclops_aspericornis_ott870753
+	Mesocyclops_darwini_ott870751
+	Mesocyclops_dissimilis_ott2947033
+	Mesocyclops_edax_ott176565
+	Mesocyclops_leuckarti_ott916876
+	Mesocyclops_longisetus_ott591855
+	Mesocyclops_major_ott870757
+	Mesocyclops_meridianus_ott870755
+	Mesocyclops_ogunnus_ott591858
+	Mesocyclops_pehpeiensis_ott870759
+	Mesocyclops_thermocyclopoides_ott116383
+	Microcyclops_ott706134
+	Notodelphys_ott92622
+	Oithona_brevicornis_ott846743
+	Oithona_helgolandica_ott880402
+	Oithona_nana_ott840665
+	Oithona_similis_ott604717
+	Oithona_simplex_ott926404
+	Pachypygus_ott2948428
+	Paracyclops_ott706142
+	Psammocyclopinidae_ott2949501
+	Pterinopsyllidae_ott2949413
+	Smirnovipinidae_ott2949331
+	Speleoithonidae_ott2949336
+	Thaumatopsyllidae_ott2949384
+	Thermocyclops_ott939731
+	Tropocyclops_ott870189
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((Megacyclops_ott706129:1.0,(Acanthocyclops_viridis_ott396575:1.0,Acanthocyclops_vernalis_ott493478:1.0,Acanthocyclops_americanus_ott2947180:1.0)[&label="Acanthocyclops_ott493477"]:1.0):1.0,(((((Mesocyclops_thermocyclopoides_ott116383:1.0,Mesocyclops_darwini_ott870751:1.0,Mesocyclops_major_ott870757:1.0):1.0,Mesocyclops_aspericornis_ott870753:1.0):1.0,(Mesocyclops_ogunnus_ott591858:1.0,Mesocyclops_pehpeiensis_ott870759:1.0,Mesocyclops_leuckarti_ott916876:1.0):1.0):1.0,(Mesocyclops_longisetus_ott591855:1.0,Mesocyclops_meridianus_ott870755:1.0):1.0):1.0,Mesocyclops_edax_ott176565:1.0,Mesocyclops_dissimilis_ott2947033:1.0)[&label="Mesocyclops_ott176566"]:1.0):1.0,((((Cyclops_scutifer_ott361028:1.0,Cyclops_kolensis_ott850515:1.0):1.0,(Cyclops_insignis_ott498954:1.0,Thermocyclops_ott939731:1.0):1.0):1.0,(((Cyclops_strenuus_ott527927:1.0,Cyclops_bohater_ott2947936:1.0):1.0,Cyclops_heberti_ott2947719:1.0):1.0,Cyclops_ochridanus_ott2947892:1.0):1.0):1.0,(Cyclops_vicinus_ott2947779:1.0,Cyclops_kikuchii_ott2947848:1.0):1.0):1.0):1.0,Tropocyclops_ott870189:1.0,(Diacyclops_galbinus_ott86576:1.0,Diacyclops_improcerus_ott86583:1.0,Diacyclops_jasnitskii_ott535422:1.0,Diacyclops_incolotaenia_ott535424:1.0,Diacyclops_bicuspidatus_ott535426:1.0)[&label="Diacyclops_ott361023"]:1.0):1.0,((((Ectocyclops_polyspinosus_ott1023329:1.0,((Eucyclops_serrulatus_ott521986:1.0,Eucyclops_dumonti_ott1091053:1.0):1.0,Eucyclops_arcanus_ott535419:1.0,(Eucyclops_macruroides_ott1051070:1.0,Eucyclops_speratus_ott1066881:1.0):1.0)[&label="Eucyclops_ott451826"]:1.0):1.0,Ectocyclops_affinis_ott2946871:1.0):1.0,Paracyclops_ott706142:1.0):1.0,(Macrocyclops_albidus_ott1091052:1.0,Macrocyclops_fuscus_ott2946891:1.0,Macrocyclops_distinctus_ott2946892:1.0)[&label="Macrocyclops_ott1091049"]:1.0):1.0):1.0,(Apocyclops_royi_ott396577:1.0,(Apocyclops_borneoensis_ott1047139:1.0,Apocyclops_panamensis_ott2946853:1.0):1.0)[&label="Apocyclops_ott1023234"]:1.0):1.0,Microcyclops_ott706134:1.0):1.0,(Halicyclops_ott131540:1.0,(Lernaea_ott1087114:1.0,(Lamproglena_chinensis_ott1087115:1.0,Lamproglena_orientalis_ott1087116:1.0)[&label="Lamproglena_ott1089019"]:1.0)[&label="Lernaeidae_ott1089029"]:1.0):1.0):1.0,Euryte_ott1023222:1.0):1.0,((((((Cyclopettidae_ott330828:1.0,(Dioithona_ott131543:1.0,(Oithona_similis_ott604717:1.0,(Oithona_nana_ott840665:1.0,Oithona_helgolandica_ott880402:1.0):1.0,Oithona_brevicornis_ott846743:1.0,Oithona_simplex_ott926404:1.0)[&label="Oithona_ott840664"]:1.0)[&label="Oithonidae_ott265983"]:1.0):1.0,Cyclopina_ott131546:1.0):1.0,(Archinotodelphyidae_ott828781:1.0,((Notodelphys_ott92622:1.0,Bonnierilla_ott2948403:1.0):1.0,(Pachypygus_ott2948428:1.0,(Doropygus_rigidus_ott2948425:1.0,Doropygus_elegans_ott2948528:1.0)[&label="Doropygus_ott2948380"]:1.0):1.0)[&label="Notodelphyidae_ott415515"]:1.0):1.0):1.0,(Speleoithonidae_ott2949336:1.0,Thaumatopsyllidae_ott2949384:1.0):1.0):1.0,((Hemicyclopinidae_ott182631:1.0,Psammocyclopinidae_ott2949501:1.0):1.0,Smirnovipinidae_ott2949331:1.0):1.0):1.0,Pterinopsyllidae_ott2949413:1.0):1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

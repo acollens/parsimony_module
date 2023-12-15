@@ -1,0 +1,13 @@
+begin data;
+    dimensions ntax=4 nchar=1;
+    format label = right;
+    matrix
+    0 taxon1
+    0 taxon2
+    1 taxon3
+    1 taxon4
+    ;
+    statelabels
+    1 parasitic independent
+    ;
+end;
