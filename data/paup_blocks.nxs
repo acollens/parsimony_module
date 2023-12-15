@@ -1,0 +1,87 @@
+#NEXUS
+begin data;
+dimensions ntax= 71 nchar=1;
+format missing=?;
+matrix
+Acanthocyclops_americanus_ott2947180 0
+Acanthocyclops_vernalis_ott493478 0
+Acanthocyclops_viridis_ott396575 0
+Apocyclops_borneoensis_ott1047139 0
+Apocyclops_panamensis_ott2946853 0
+Apocyclops_royi_ott396577 0
+Archinotodelphyidae_ott828781 0
+Bonnierilla_ott2948403 1
+Cyclopettidae_ott330828 0
+Cyclopina_ott131546 0
+Cyclops_bohater_ott2947936 0
+Cyclops_heberti_ott2947719 0
+Cyclops_insignis_ott498954 0
+Cyclops_kikuchii_ott2947848 0
+Cyclops_kolensis_ott850515 0
+Cyclops_ochridanus_ott2947892 0
+Cyclops_scutifer_ott361028 0
+Cyclops_strenuus_ott527927 0
+Cyclops_vicinus_ott2947779 0
+Diacyclops_bicuspidatus_ott535426 0
+Diacyclops_galbinus_ott86576 0
+Diacyclops_improcerus_ott86583 0
+Diacyclops_incolotaenia_ott535424 0
+Diacyclops_jasnitskii_ott535422 0
+Dioithona_ott131543 0
+Doropygus_elegans_ott2948528 1
+Doropygus_rigidus_ott2948425 1
+Ectocyclops_affinis_ott2946871 0
+Ectocyclops_polyspinosus_ott1023329 0
+Eucyclops_arcanus_ott535419 1
+Eucyclops_dumonti_ott1091053 0
+Eucyclops_macruroides_ott1051070 0
+Eucyclops_serrulatus_ott521986 0
+Eucyclops_speratus_ott1066881 0
+Euryte_ott1023222 0
+Halicyclops_ott131540 0
+Hemicyclopinidae_ott182631 0
+Lamproglena_chinensis_ott1087115 1
+Lamproglena_orientalis_ott1087116 1
+Lernaea_ott1087114 1
+Macrocyclops_albidus_ott1091052 0
+Macrocyclops_distinctus_ott2946892 0
+Macrocyclops_fuscus_ott2946891 0
+Megacyclops_ott706129 0
+Mesocyclops_aspericornis_ott870753 0
+Mesocyclops_darwini_ott870751 0
+Mesocyclops_dissimilis_ott2947033 0
+Mesocyclops_edax_ott176565 0
+Mesocyclops_leuckarti_ott916876 0
+Mesocyclops_longisetus_ott591855 0
+Mesocyclops_major_ott870757 0
+Mesocyclops_meridianus_ott870755 0
+Mesocyclops_ogunnus_ott591858 0
+Mesocyclops_pehpeiensis_ott870759 0
+Mesocyclops_thermocyclopoides_ott116383 0
+Microcyclops_ott706134 0
+Notodelphys_ott92622 1
+Oithona_brevicornis_ott846743 0
+Oithona_helgolandica_ott880402 0
+Oithona_nana_ott840665 0
+Oithona_similis_ott604717 0
+Oithona_simplex_ott926404 0
+Pachypygus_ott2948428 1
+Paracyclops_ott706142 0
+Psammocyclopinidae_ott2949501 0
+Pterinopsyllidae_ott2949413 0
+Smirnovipinidae_ott2949331 0
+Speleoithonidae_ott2949336 0
+Thaumatopsyllidae_ott2949384 1
+Thermocyclops_ott939731 0
+Tropocyclops_ott870189 0
+;
+statelabels
+    1 parasitic independent
+;
+end;
+begin trees;
+utree tree_1 = [&R] ((((((((((Megacyclops_ott706129:1.0,(Acanthocyclops_viridis_ott396575:1.0,Acanthocyclops_vernalis_ott493478:1.0,Acanthocyclops_americanus_ott2947180:1.0)[&label="Acanthocyclops_ott493477"]:1.0):1.0,(((((Mesocyclops_thermocyclopoides_ott116383:1.0,Mesocyclops_darwini_ott870751:1.0,Mesocyclops_major_ott870757:1.0):1.0,Mesocyclops_aspericornis_ott870753:1.0):1.0,(Mesocyclops_ogunnus_ott591858:1.0,Mesocyclops_pehpeiensis_ott870759:1.0,Mesocyclops_leuckarti_ott916876:1.0):1.0):1.0,(Mesocyclops_longisetus_ott591855:1.0,Mesocyclops_meridianus_ott870755:1.0):1.0):1.0,Mesocyclops_edax_ott176565:1.0,Mesocyclops_dissimilis_ott2947033:1.0)[&label="Mesocyclops_ott176566"]:1.0):1.0,((((Cyclops_scutifer_ott361028:1.0,Cyclops_kolensis_ott850515:1.0):1.0,(Cyclops_insignis_ott498954:1.0,Thermocyclops_ott939731:1.0):1.0):1.0,(((Cyclops_strenuus_ott527927:1.0,Cyclops_bohater_ott2947936:1.0):1.0,Cyclops_heberti_ott2947719:1.0):1.0,Cyclops_ochridanus_ott2947892:1.0):1.0):1.0,(Cyclops_vicinus_ott2947779:1.0,Cyclops_kikuchii_ott2947848:1.0):1.0):1.0):1.0,Tropocyclops_ott870189:1.0,(Diacyclops_galbinus_ott86576:1.0,Diacyclops_improcerus_ott86583:1.0,Diacyclops_jasnitskii_ott535422:1.0,Diacyclops_incolotaenia_ott535424:1.0,Diacyclops_bicuspidatus_ott535426:1.0)[&label="Diacyclops_ott361023"]:1.0):1.0,((((Ectocyclops_polyspinosus_ott1023329:1.0,((Eucyclops_serrulatus_ott521986:1.0,Eucyclops_dumonti_ott1091053:1.0):1.0,Eucyclops_arcanus_ott535419:1.0,(Eucyclops_macruroides_ott1051070:1.0,Eucyclops_speratus_ott1066881:1.0):1.0)[&label="Eucyclops_ott451826"]:1.0):1.0,Ectocyclops_affinis_ott2946871:1.0):1.0,Paracyclops_ott706142:1.0):1.0,(Macrocyclops_albidus_ott1091052:1.0,Macrocyclops_fuscus_ott2946891:1.0,Macrocyclops_distinctus_ott2946892:1.0)[&label="Macrocyclops_ott1091049"]:1.0):1.0):1.0,(Apocyclops_royi_ott396577:1.0,(Apocyclops_borneoensis_ott1047139:1.0,Apocyclops_panamensis_ott2946853:1.0):1.0)[&label="Apocyclops_ott1023234"]:1.0):1.0,Microcyclops_ott706134:1.0):1.0,(Halicyclops_ott131540:1.0,(Lernaea_ott1087114:1.0,(Lamproglena_chinensis_ott1087115:1.0,Lamproglena_orientalis_ott1087116:1.0)[&label="Lamproglena_ott1089019"]:1.0)[&label="Lernaeidae_ott1089029"]:1.0):1.0):1.0,Euryte_ott1023222:1.0):1.0,((((((Cyclopettidae_ott330828:1.0,(Dioithona_ott131543:1.0,(Oithona_similis_ott604717:1.0,(Oithona_nana_ott840665:1.0,Oithona_helgolandica_ott880402:1.0):1.0,Oithona_brevicornis_ott846743:1.0,Oithona_simplex_ott926404:1.0)[&label="Oithona_ott840664"]:1.0)[&label="Oithonidae_ott265983"]:1.0):1.0,Cyclopina_ott131546:1.0):1.0,(Archinotodelphyidae_ott828781:1.0,((Notodelphys_ott92622:1.0,Bonnierilla_ott2948403:1.0):1.0,(Pachypygus_ott2948428:1.0,(Doropygus_rigidus_ott2948425:1.0,Doropygus_elegans_ott2948528:1.0)[&label="Doropygus_ott2948380"]:1.0):1.0)[&label="Notodelphyidae_ott415515"]:1.0):1.0):1.0,(Speleoithonidae_ott2949336:1.0,Thaumatopsyllidae_ott2949384:1.0):1.0):1.0,((Hemicyclopinidae_ott182631:1.0,Psammocyclopinidae_ott2949501:1.0):1.0,Smirnovipinidae_ott2949331:1.0):1.0):1.0,Pterinopsyllidae_ott2949413:1.0):1.0);
+end;
+begin PAUP;
+PSet IncludeAnc = Yes;
+end;
