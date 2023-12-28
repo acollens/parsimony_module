@@ -1,0 +1,96 @@
+---
+title: "Ancestral Character State Assignment in PAUP*"
+source: Rmd
+output: pdf_document
+objectives: 
+- "Downloading and using PAUP* for parsimony-based ancestral state reconstructions"
+- "Use and manipulate NEXUS file format with PAUP blocks including a Newick tree string and character data" 
+- "Assess PAUP* character state outputs  about ancestral states generated under different methods of ancestral state reconstruction"
+keypoints: 
+- "Downloading and using PAUP* for parsimony-based ancestral state reconstructions"
+- "We can manipulate NEXUS file formated inputs to PAUP with PAUP blocks, including a Newick tree string and character data" 
+- "PAUP* character state outputs depend onmethods of ancestral state reconstruction"
+
+exercises: 
+---
+
+```{r, include=FALSE}
+#install.packages('remotes', repos = 'https://cran.rstudio.com')
+#source("../bin/chunk-options.R")
+#knitr_fig_path("01-")
+```
+
+### Contents
+
+1.  [Overview](# Overview: Parsimony-Based Ancestral State Reconstruction)
+2.  [Downloads](# Downloads for Ancestral State Reconstruction in PAUP)
+3.  [PAUP Input Files](# PAUP NEXUS Input Files and PAUP blocks)
+4.  [Character States on a Tree](# Character States on a Tree)
+5. [Choosing Different Models](# Models of Character State Evolution)
+
+# Overview: Parsimony-Based Ancestral State Reconstruction 
+
+For this module, we will be applying the models of character state evolution on a subset of data from Bernot, Boxshall & Crandall, 2021. This includes a tree and a labeled character set for a single character.  
+
+
+# Downloads for Ancestral State Reconstruction in PAUP
+
+Download the latest version of PAUP here:
+<https://phylosolutions.com/paup-test/> All the data files for this
+project are in this GitHub directory:
+<https://github.com/acollens/parsimony_module/tree/gh-pages/data>
+
+For simplicity, let's explore ancestral character state assignment with a single character. Obviously, this is not exemplary of a character set one would get from sequencing data, but even physiological & morphological characters also allow for new and exciting biological insights. Our collaborators have given us a subtree of a recently created copepod species tree. Leaves are labeled as species_genus_unique code and we have also been provided labeled character states for each species, 0 for free-living or 1 for parasitic. We want to know: Where on this tree did parasitism evolve? Did it evolve without homoplasy?
+
+Importantly, because this tree does not have informative branch lengths, we will be using parsimony methods to assign ancestral character states. When we visualize the tree, we will ask PAUP to show us a cladogram.
+
+# PAUP NEXUS Input Files and PAUP blocks
+
+Choose your favorite text editor, ideally one which displays line
+numbers, to take a look at the input NEXUS file our collaborator has
+sent us called `paup_blocks.nxs` The PAUP manual will help you answer
+questions in this module and understand your inputs and outputs.
+<https://phylosolutions.com/paup-documentation/paupmanual.pdf>
+
+Q1: What blocks are currently included in the `paup_blocks.nxs` file?
+
+Now, let's open and run PAUP. This should open a new window with every new line beginning `paup >`. 
+To execute the file, run the following line with the path edited to where you have the data directory saved: 
+`exe ~/data/paup_practice.nxs`
+
+# Character States on a Tree
+
+Take a look at where the changes character state assignments occurred. 
+Run `describe 1/chglist plot = cladogram`
+
+Q1: On which nodes did parasitism arise? 
+Q2: What is the parsimony score
+of this tree? How do you know? 
+Q3: Does this character evolve without
+homoplasy? What does that mean? 
+Q4: Is this tree a perfect phylogeny?
+Why or why not?
+
+
+Q5: Copy and create a new `.nxs` file in the `~/data` directory. Provide an artificial re-labeling of a character state(s) at one or more leaves which would create a non-perfect phylogeny.
+Q6: Paste your output from running your new `.nxs`, then paste and describe differences from the output from the original output from `paup_blocks.nxs`
+
+# Models of Character State Evolution
+
+Q1: If our collaborator and the literature claims we assume this
+character, parasitism, will evolve and not return to free-living. What
+model of character state evolution should we choose and why?
+
+Q2: The Assumptions Block tells PAUP* the assumptions we are making
+about this character's evolution on the tree. Which model is necessary
+to assign ancestral states given how our collaborator has described this
+character's evolution?
+
+Based on the previously described methods for determining character
+states on a tree, choose another setting for the Assumptions block and
+edit your `paup_blocks.nxs` file to include that model. 
+Save and Run the 
+`paup_blocks.nxs` file again. 
+Run `describe 1/chglist plot = cladogram`
+
+Q3: Did the locations of the character state changes change? Why or why not? What are the assumptions associated with the model you chose?
