@@ -1,5 +1,7 @@
 # Parsimony Scoring Module
 
+This module is built for students with background in phylogenetics to introduce PAUP* for parsimony scoring. It is currently under construction. 
+
 [![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
 
 This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. 
